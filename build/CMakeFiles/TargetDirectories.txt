@@ -1,5 +1,0 @@
-C:/DeskQuant/build/CMakeFiles/deskquant.dir
-C:/DeskQuant/build/CMakeFiles/edit_cache.dir
-C:/DeskQuant/build/CMakeFiles/rebuild_cache.dir
-C:/DeskQuant/build/CMakeFiles/deskquant_autogen_timestamp_deps.dir
-C:/DeskQuant/build/CMakeFiles/deskquant_autogen.dir

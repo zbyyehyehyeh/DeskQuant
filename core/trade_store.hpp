@@ -6,10 +6,11 @@
 struct Trade {
     std::string symbol;   // ← 股票代码（多股票必须）
     uint64_t ts = 0;      // 成交时间
-    double price = 0;     // 成交价
+    double price = 0;     // 成交价（标的币种：CNY/USD/CAD）
     double qty = 0;       // 正买负卖
-    double fee = 0;       // 手续费
-    double pnl = 0;       // 盈亏（卖出时非 0）
+    double fee = 0;       // 手续费（人民币，已换算）
+    double pnl = 0;       // 盈亏（人民币，已换算；卖出时非 0）
+    std::string currency = "CNY";  // 标的币种
 };
 
 // 交易存储接口：Add 写入，LoadAll 按时间顺序回放
